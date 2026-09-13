@@ -11,8 +11,7 @@ on:
       - synchronize
       - ready_for_review
       - reopened
-  schedule:
-    - cron: '42 12 * * *'
+
 
 jobs:
   check-submodules:
